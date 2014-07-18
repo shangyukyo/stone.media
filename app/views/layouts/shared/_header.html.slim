@@ -1,0 +1,14 @@
+#header
+	.wrap.group		
+		img src="/assets/related/logo.png" alt="中博巨石" id="exo_logo" width="167px" height="70px"
+	.header_nav
+		ul
+			li class="#{params[:action] == 'welcome' ? 'active' : nil}"
+				a href="#{root_path}" 首页
+			li class="#{params[:action] == 'about_us' ? 'active' : nil}"
+				a href="#{about_us_path}" 企业简介
+			li class="#{params[:action] == 'case_list' || params[:action] == 'case_show' ? 'active' : nil}"
+				a href="#{case_list_path}" 案例展示
+			li class="#{params[:action] == 'contact' || params[:action] == 'contact' ? 'active' : nil}"
+				a href="#{contact_path}" 联系我们
+

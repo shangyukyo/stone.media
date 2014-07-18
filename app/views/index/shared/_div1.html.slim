@@ -1,0 +1,54 @@
+= stylesheet_link_tag 'index'
+= javascript_include_tag 'index_list_scroll'
+#div1
+	#top style='display:none'
+		.small
+		  ul
+		  	- @case.first(9).each do |c|
+			    li style="opacity: 0.4; "
+			      img src="#{dfs_to_url(c.dfs_path, :s)}" width='75px' height='100px'
+
+	#list
+	  ul
+	  	- @case.first(9).each do |c|
+		    li
+		      img src="#{dfs_to_url(c.dfs_path, :l)}"
+		        div style="opacity: 0.71; "
+		        p.b_tit style="bottom: -120px; "
+		          span.opacity
+		          span.tit
+		            span
+		            	= c.name		              		              		            			            			            	
+		            	em
+		            		a#showcase case_id="#{c.id}" href="javascript:;" style="color:red;font-size:12px;float:right;" 详情
+		            em
+		            	= c.intro.truncate(40)
+
+	#index_bottom
+		.index_intro_related
+			.index_intro_head
+				.index_intro_head_title
+					| 最新推荐		
+			.index_intro
+				= CompanyFeature.last.try(:intro).to_s.truncate(200)
+		.index_case_related
+			.index_case_head
+				.index_case_head_title
+					a href="#{case_list_path}" ...更多案例		
+			.index_case
+				ul
+					- @case.each do |c|
+						li
+							a href="#{case_show_path(c.id)}"
+								img src="#{dfs_to_url(c.dfs_path, :c)}"	
+
+
+
+
+/ javascript:
+/ 	$(function(){		
+/ 		var per = $('body').width() / 1276 ;
+/ 		console.log(per);
+/ 		$('#list').css('margin-left', (90 * per) + 'px');
+/ 	})
+	

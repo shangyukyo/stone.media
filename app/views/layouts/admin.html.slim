@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+html
+  head
+    title Stone
+    = stylesheet_link_tag "lib/bootstrap.min", "lib/cpanel"
+    = javascript_include_tag 'lib/jquery.min', 'lib/bootstrap.min'
+    = csrf_meta_tags
+
+  body
+    .navbar.navbar-inverse.navbar-static-top
+      .container        
+        = render '/admin/shared/header_nav'
+
+    #main.container      
+      = yield

@@ -1,0 +1,19 @@
+doctype html
+html
+	head
+		title 北京中博巨石文化传媒有限公司		
+		meta name="viewport" content="width=device-width, initial-scale=1.0"
+    meta name='keywords' content="中博巨石文化传媒有限公司 中博巨石 北京中博巨石 影视传媒 影视宣传 中博传媒"
+    meta name='description' content="中博巨石文化传媒有限公司(简称中博传媒)于2009年10月成立，中博提出了打造低成本影视宣传机构--企业定位。中博巨石的成立标志着一个全新的影视视觉专业化媒体团队的形成"
+
+		= stylesheet_link_tag "application", media: "all", "data-turbolinks-track" => true
+		= javascript_include_tag "application", "data-turbolinks-track" => true						
+
+		= csrf_meta_tags
+
+	body		
+		= render partial: 'layouts/shared/header'
+		= yield 
+    #footer    
+      = render :partial => 'layouts/shared/footer'
+

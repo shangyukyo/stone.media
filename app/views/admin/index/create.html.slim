@@ -1,0 +1,36 @@
+.conditions
+  .search
+    ul.nav.nav-tabs
+      li: a href="#{admin_index_path}" 经典案例列表
+      li.active: a href="#{admin_create_case_path}" 添加经典案例  
+
+.panel-container
+  .panel.panel-primary
+    .panel-heading
+      h3.panel-title 添加新案例
+    .container
+      = form_tag admin_create_case_path, :class => 'form-horizontal', :multipart => true, :method => 'POST' do   
+        
+        hr
+
+        .form-group
+          label.col-lg-2.control-label
+          .col-lg-7
+            input.form-control type="file"  required="true" name="dfs_path"  placeholder="请上传案例图片"
+
+        .form-group
+          label.col-lg-2.control-label
+          .col-lg-7
+            input.form-control type="text" placeholder="请输入案例名称" required="true" name="name"                  
+
+        .form-group
+          label.col-lg-2.control-label
+          .col-lg-7
+            textarea.form-control placeholder="请输入案例介绍" required="true" name="intro"
+
+        hr
+
+        .form-group
+          label.col-lg-2.control-label
+          .col-lg-2
+            input.btn.btn-primary type="submit" value="确定添加案例"            	

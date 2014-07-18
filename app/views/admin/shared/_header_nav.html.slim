@@ -1,0 +1,9 @@
+- navs = { \
+   'CASE'            => ['经典案例', admin_index_path], \
+   'COMPANY_INTRO'   => ['公司简介', admin_company_intro_path], \
+   'COMPANY_feature'   => ['最新推荐', admin_company_feature_path] \
+  }
+ul.nav.navbar-nav
+  - navs.each do |k , nav|
+    li
+      a href="#{nav[1]}" #{nav[0]}

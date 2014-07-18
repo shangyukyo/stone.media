@@ -1,0 +1,29 @@
+.conditions
+  .search
+    ul.nav.nav-tabs
+      li.active: a href="#{admin_index_path}" 经典案例列表
+      li: a href="#{admin_create_case_path}" 添加经典案例
+
+.panel-container
+  .panel.panel-primary
+    .panel-heading
+      h3.panel-title 经典案例列表
+    .container
+      table.table.table-striped.table-bordered.table-hover
+        thead
+          tr
+            th 预览图
+            th 名称 
+            th 介绍            
+            th 创建时间
+            th 操作
+        tbody
+          - @cases.each do |c|
+            tr              
+              td
+              	img src="#{dfs_to_url(c.dfs_path, :c)}"              
+              td= c.name
+              td= c.intro
+              td= c.created_at.strftime('%F %T')              
+              td
+                a href="#{admin_destroy_case_path(id: c.id)}" 删除

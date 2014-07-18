@@ -1,0 +1,26 @@
+
+javascript:  
+  google.maps.event.addDomListener(window, 'load', function() {
+      var mapdiv = document.getElementById('div3');
+      var myOptions = {
+      zoom: 16,
+      center: new google.maps.LatLng(39.98703781878525,116.41928336348724),
+      mapTypeId: google.maps.MapTypeId.ROADMAP,
+      scaleControl: true
+      };
+      var map = new google.maps.Map(mapdiv, myOptions);
+      var marker = new google.maps.Marker({
+      position: new google.maps.LatLng(39.98703781878525,116.41928336348724),
+      map: map, 
+      title: '北京中博巨石传媒有限公司'
+      });
+      var infowindow = new google.maps.InfoWindow({
+      content: '<strong>北京中博巨石传媒有限公司</strong><br />北京中博巨石传媒有限公司',
+      size: new google.maps.Size(200, 200)
+      });
+      google.maps.event.addListener(marker, 'click', function() {
+      infowindow.open(map,marker);
+      });
+      infowindow.open(map,marker);
+  });  
+#div3

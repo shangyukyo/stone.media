@@ -1,0 +1,16 @@
+defaults: &defaults
+  assets_path: public
+  assets_host: http://www.zbjushi.com 
+
+development:
+  <<: *defaults
+
+
+test:
+  <<: *defaults
+
+production:
+  <<: *defaults
+
+staging:
+  <<: *defaults

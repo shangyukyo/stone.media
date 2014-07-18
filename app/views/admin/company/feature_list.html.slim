@@ -1,0 +1,21 @@
+.conditions
+  .search
+    ul.nav.nav-tabs
+      li.active: a href="#{admin_company_feature_list_path}" 最新推荐
+      li: a href="#{admin_company_feature_path}" 最新推荐
+
+.panel-container
+  .panel.panel-primary
+    .panel-heading
+      h3.panel-title 最新推荐列表
+    .container
+      table.table.table-striped.table-bordered.table-hover
+        thead
+          tr                        
+            th 介绍            
+            th 创建时间            
+        tbody
+          - @features.each do |f|
+            tr              
+              td= f.intro
+              td= f.created_at.strftime('%F %T')              

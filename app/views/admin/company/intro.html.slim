@@ -1,0 +1,38 @@
+= stylesheet_link_tag "lib/redactor"
+= javascript_include_tag 'lib/redactor.min'
+
+.conditions
+  .search
+    ul.nav.nav-tabs      
+      li.active: a href="#{admin_company_intro_path}" 公司简介
+
+.panel-container
+  .panel.panel-primary
+    .panel-heading
+      h3.panel-title 添加/更新 公司简介
+    .container
+      = form_tag admin_company_intro_path, :class => 'form-horizontal', :method => 'POST' do   
+        - if flash[:notice]
+          hr
+            = flash[:notice]
+        
+        hr
+
+        .form-group
+          label.col-lg-2.control-label
+          .col-lg-7
+            textarea.form-control id="redactor_editor" name="content" rows="100"
+              = @c.intro
+
+        hr
+
+        .form-group
+          label.col-lg-2.control-label
+          .col-lg-2
+            input.btn.btn-primary type="submit" value="确定添加/更新公司简介"            	
+
+
+javascript:
+  $(function(){
+    $('#redactor_editor').redactor();  
+  })            

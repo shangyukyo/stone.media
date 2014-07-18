@@ -1,0 +1,8 @@
+#case_list
+	ul
+		- @cases.each do |c|
+			li
+				a href="#{case_show_path(c.id)}" alt="#{c.intro.truncate(20)}"
+					img src="#{dfs_to_url(c.dfs_path, :l)}" alt="#{c.intro.truncate(20)}"
+				.intro
+					= c.name.to_s.truncate(9)

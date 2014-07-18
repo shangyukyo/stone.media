@@ -1,0 +1,539 @@
+I, [2014-02-12T21:40:59.498846 #8252]  INFO -- : Started GET "/" for 121.5.20.120 at 2014-02-12 21:40:59 -0500
+I, [2014-02-12T21:40:59.588764 #8252]  INFO -- : Processing by IndexController#welcome as HTML
+I, [2014-02-12T21:40:59.739678 #8252]  INFO -- :   Rendered index/shared/_div1.html.slim (61.8ms)
+I, [2014-02-12T21:40:59.745817 #8252]  INFO -- :   Rendered index/welcome.html.slim within layouts/application (96.3ms)
+I, [2014-02-12T21:40:59.773785 #8252]  INFO -- :   Rendered layouts/shared/_header.html.slim (10.7ms)
+I, [2014-02-12T21:40:59.785761 #8252]  INFO -- :   Rendered layouts/shared/_footer.html.slim (9.7ms)
+I, [2014-02-12T21:40:59.786371 #8252]  INFO -- : Completed 200 OK in 197ms (Views: 144.4ms | ActiveRecord: 4.2ms)
+I, [2014-02-12T21:41:00.225772 #8252]  INFO -- : Started GET "/stylesheets/application.css" for 121.5.20.120 at 2014-02-12 21:41:00 -0500
+F, [2014-02-12T21:41:00.230995 #8252] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/stylesheets/application.css"):
+  vendor/cache/ruby/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  vendor/cache/ruby/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  vendor/cache/ruby/1.9.1/gems/railties-4.0.0/lib/rails/rack/logger.rb:38:in `call_app'
+  vendor/cache/ruby/1.9.1/gems/railties-4.0.0/lib/rails/rack/logger.rb:21:in `block in call'
+  vendor/cache/ruby/1.9.1/gems/activesupport-4.0.0/lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  vendor/cache/ruby/1.9.1/gems/activesupport-4.0.0/lib/active_support/tagged_logging.rb:25:in `tagged'
+  vendor/cache/ruby/1.9.1/gems/activesupport-4.0.0/lib/active_support/tagged_logging.rb:67:in `tagged'
+  vendor/cache/ruby/1.9.1/gems/railties-4.0.0/lib/rails/rack/logger.rb:21:in `call'
+  vendor/cache/ruby/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  vendor/cache/ruby/1.9.1/gems/rack-1.5.2/lib/rack/methodoverride.rb:21:in `call'
+  vendor/cache/ruby/1.9.1/gems/rack-1.5.2/lib/rack/runtime.rb:17:in `call'
+  vendor/cache/ruby/1.9.1/gems/activesupport-4.0.0/lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  vendor/cache/ruby/1.9.1/gems/railties-4.0.0/lib/rails/engine.rb:511:in `call'
+  vendor/cache/ruby/1.9.1/gems/railties-4.0.0/lib/rails/application.rb:97:in `call'
+  vendor/cache/ruby/1.9.1/gems/rack-1.5.2/lib/rack/lock.rb:17:in `call'
+  vendor/cache/ruby/1.9.1/gems/rack-1.5.2/lib/rack/content_length.rb:14:in `call'
+  vendor/cache/ruby/1.9.1/gems/rack-1.5.2/lib/rack/handler/webrick.rb:60:in `service'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /usr/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+I, [2014-02-12T21:41:00.239930 #8252]  INFO -- : Started GET "/javascripts/index_list_scroll.js" for 121.5.20.120 at 2014-02-12 21:41:00 -0500
+F, [2014-02-12T21:41:00.246557 #8252] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/javascripts/index_list_scroll.js"):
+  vendor/cache/ruby/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  vendor/cache/ruby/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  vendor/cache/ruby/1.9.1/gems/railties-4.0.0/lib/rails/rack/logger.rb:38:in `call_app'
+  vendor/cache/ruby/1.9.1/gems/railties-4.0.0/lib/rails/rack/logger.rb:21:in `block in call'
+  vendor/cache/ruby/1.9.1/gems/activesupport-4.0.0/lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  vendor/cache/ruby/1.9.1/gems/activesupport-4.0.0/lib/active_support/tagged_logging.rb:25:in `tagged'
+  vendor/cache/ruby/1.9.1/gems/activesupport-4.0.0/lib/active_support/tagged_logging.rb:67:in `tagged'
+  vendor/cache/ruby/1.9.1/gems/railties-4.0.0/lib/rails/rack/logger.rb:21:in `call'
+  vendor/cache/ruby/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  vendor/cache/ruby/1.9.1/gems/rack-1.5.2/lib/rack/methodoverride.rb:21:in `call'
+  vendor/cache/ruby/1.9.1/gems/rack-1.5.2/lib/rack/runtime.rb:17:in `call'
+  vendor/cache/ruby/1.9.1/gems/activesupport-4.0.0/lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  vendor/cache/ruby/1.9.1/gems/railties-4.0.0/lib/rails/engine.rb:511:in `call'
+  vendor/cache/ruby/1.9.1/gems/railties-4.0.0/lib/rails/application.rb:97:in `call'
+  vendor/cache/ruby/1.9.1/gems/rack-1.5.2/lib/rack/lock.rb:17:in `call'
+  vendor/cache/ruby/1.9.1/gems/rack-1.5.2/lib/rack/content_length.rb:14:in `call'
+  vendor/cache/ruby/1.9.1/gems/rack-1.5.2/lib/rack/handler/webrick.rb:60:in `service'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /usr/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+I, [2014-02-12T21:41:00.247775 #8252]  INFO -- : Started GET "/javascripts/application.js" for 121.5.20.120 at 2014-02-12 21:41:00 -0500
+F, [2014-02-12T21:41:00.250131 #8252] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/javascripts/application.js"):
+  vendor/cache/ruby/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  vendor/cache/ruby/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  vendor/cache/ruby/1.9.1/gems/railties-4.0.0/lib/rails/rack/logger.rb:38:in `call_app'
+  vendor/cache/ruby/1.9.1/gems/railties-4.0.0/lib/rails/rack/logger.rb:21:in `block in call'
+  vendor/cache/ruby/1.9.1/gems/activesupport-4.0.0/lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  vendor/cache/ruby/1.9.1/gems/activesupport-4.0.0/lib/active_support/tagged_logging.rb:25:in `tagged'
+  vendor/cache/ruby/1.9.1/gems/activesupport-4.0.0/lib/active_support/tagged_logging.rb:67:in `tagged'
+  vendor/cache/ruby/1.9.1/gems/railties-4.0.0/lib/rails/rack/logger.rb:21:in `call'
+  vendor/cache/ruby/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  vendor/cache/ruby/1.9.1/gems/rack-1.5.2/lib/rack/methodoverride.rb:21:in `call'
+  vendor/cache/ruby/1.9.1/gems/rack-1.5.2/lib/rack/runtime.rb:17:in `call'
+  vendor/cache/ruby/1.9.1/gems/activesupport-4.0.0/lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  vendor/cache/ruby/1.9.1/gems/railties-4.0.0/lib/rails/engine.rb:511:in `call'
+  vendor/cache/ruby/1.9.1/gems/railties-4.0.0/lib/rails/application.rb:97:in `call'
+  vendor/cache/ruby/1.9.1/gems/rack-1.5.2/lib/rack/lock.rb:17:in `call'
+  vendor/cache/ruby/1.9.1/gems/rack-1.5.2/lib/rack/content_length.rb:14:in `call'
+  vendor/cache/ruby/1.9.1/gems/rack-1.5.2/lib/rack/handler/webrick.rb:60:in `service'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /usr/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+I, [2014-02-12T21:41:00.250932 #8252]  INFO -- : Started GET "/stylesheets/index.css" for 121.5.20.120 at 2014-02-12 21:41:00 -0500
+F, [2014-02-12T21:41:00.254519 #8252] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/stylesheets/index.css"):
+  vendor/cache/ruby/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  vendor/cache/ruby/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  vendor/cache/ruby/1.9.1/gems/railties-4.0.0/lib/rails/rack/logger.rb:38:in `call_app'
+  vendor/cache/ruby/1.9.1/gems/railties-4.0.0/lib/rails/rack/logger.rb:21:in `block in call'
+  vendor/cache/ruby/1.9.1/gems/activesupport-4.0.0/lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  vendor/cache/ruby/1.9.1/gems/activesupport-4.0.0/lib/active_support/tagged_logging.rb:25:in `tagged'
+  vendor/cache/ruby/1.9.1/gems/activesupport-4.0.0/lib/active_support/tagged_logging.rb:67:in `tagged'
+  vendor/cache/ruby/1.9.1/gems/railties-4.0.0/lib/rails/rack/logger.rb:21:in `call'
+  vendor/cache/ruby/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  vendor/cache/ruby/1.9.1/gems/rack-1.5.2/lib/rack/methodoverride.rb:21:in `call'
+  vendor/cache/ruby/1.9.1/gems/rack-1.5.2/lib/rack/runtime.rb:17:in `call'
+  vendor/cache/ruby/1.9.1/gems/activesupport-4.0.0/lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  vendor/cache/ruby/1.9.1/gems/railties-4.0.0/lib/rails/engine.rb:511:in `call'
+  vendor/cache/ruby/1.9.1/gems/railties-4.0.0/lib/rails/application.rb:97:in `call'
+  vendor/cache/ruby/1.9.1/gems/rack-1.5.2/lib/rack/lock.rb:17:in `call'
+  vendor/cache/ruby/1.9.1/gems/rack-1.5.2/lib/rack/content_length.rb:14:in `call'
+  vendor/cache/ruby/1.9.1/gems/rack-1.5.2/lib/rack/handler/webrick.rb:60:in `service'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /usr/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+I, [2014-02-12T21:41:00.878240 #8252]  INFO -- : Started GET "/assets/related/logo_small.png" for 121.5.20.120 at 2014-02-12 21:41:00 -0500
+F, [2014-02-12T21:41:00.881012 #8252] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/assets/related/logo_small.png"):
+  vendor/cache/ruby/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  vendor/cache/ruby/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  vendor/cache/ruby/1.9.1/gems/railties-4.0.0/lib/rails/rack/logger.rb:38:in `call_app'
+  vendor/cache/ruby/1.9.1/gems/railties-4.0.0/lib/rails/rack/logger.rb:21:in `block in call'
+  vendor/cache/ruby/1.9.1/gems/activesupport-4.0.0/lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  vendor/cache/ruby/1.9.1/gems/activesupport-4.0.0/lib/active_support/tagged_logging.rb:25:in `tagged'
+  vendor/cache/ruby/1.9.1/gems/activesupport-4.0.0/lib/active_support/tagged_logging.rb:67:in `tagged'
+  vendor/cache/ruby/1.9.1/gems/railties-4.0.0/lib/rails/rack/logger.rb:21:in `call'
+  vendor/cache/ruby/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  vendor/cache/ruby/1.9.1/gems/rack-1.5.2/lib/rack/methodoverride.rb:21:in `call'
+  vendor/cache/ruby/1.9.1/gems/rack-1.5.2/lib/rack/runtime.rb:17:in `call'
+  vendor/cache/ruby/1.9.1/gems/activesupport-4.0.0/lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  vendor/cache/ruby/1.9.1/gems/railties-4.0.0/lib/rails/engine.rb:511:in `call'
+  vendor/cache/ruby/1.9.1/gems/railties-4.0.0/lib/rails/application.rb:97:in `call'
+  vendor/cache/ruby/1.9.1/gems/rack-1.5.2/lib/rack/lock.rb:17:in `call'
+  vendor/cache/ruby/1.9.1/gems/rack-1.5.2/lib/rack/content_length.rb:14:in `call'
+  vendor/cache/ruby/1.9.1/gems/rack-1.5.2/lib/rack/handler/webrick.rb:60:in `service'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /usr/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+I, [2014-02-12T21:41:00.883429 #8252]  INFO -- : Started GET "/assets/related/logo.png" for 121.5.20.120 at 2014-02-12 21:41:00 -0500
+F, [2014-02-12T21:41:00.885696 #8252] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/assets/related/logo.png"):
+  vendor/cache/ruby/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  vendor/cache/ruby/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  vendor/cache/ruby/1.9.1/gems/railties-4.0.0/lib/rails/rack/logger.rb:38:in `call_app'
+  vendor/cache/ruby/1.9.1/gems/railties-4.0.0/lib/rails/rack/logger.rb:21:in `block in call'
+  vendor/cache/ruby/1.9.1/gems/activesupport-4.0.0/lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  vendor/cache/ruby/1.9.1/gems/activesupport-4.0.0/lib/active_support/tagged_logging.rb:25:in `tagged'
+  vendor/cache/ruby/1.9.1/gems/activesupport-4.0.0/lib/active_support/tagged_logging.rb:67:in `tagged'
+  vendor/cache/ruby/1.9.1/gems/railties-4.0.0/lib/rails/rack/logger.rb:21:in `call'
+  vendor/cache/ruby/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  vendor/cache/ruby/1.9.1/gems/rack-1.5.2/lib/rack/methodoverride.rb:21:in `call'
+  vendor/cache/ruby/1.9.1/gems/rack-1.5.2/lib/rack/runtime.rb:17:in `call'
+  vendor/cache/ruby/1.9.1/gems/activesupport-4.0.0/lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  vendor/cache/ruby/1.9.1/gems/railties-4.0.0/lib/rails/engine.rb:511:in `call'
+  vendor/cache/ruby/1.9.1/gems/railties-4.0.0/lib/rails/application.rb:97:in `call'
+  vendor/cache/ruby/1.9.1/gems/rack-1.5.2/lib/rack/lock.rb:17:in `call'
+  vendor/cache/ruby/1.9.1/gems/rack-1.5.2/lib/rack/content_length.rb:14:in `call'
+  vendor/cache/ruby/1.9.1/gems/rack-1.5.2/lib/rack/handler/webrick.rb:60:in `service'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /usr/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+I, [2014-02-12T21:41:00.889475 #8252]  INFO -- : Started GET "/assets/related/add.png" for 121.5.20.120 at 2014-02-12 21:41:00 -0500
+F, [2014-02-12T21:41:00.892786 #8252] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/assets/related/add.png"):
+  vendor/cache/ruby/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  vendor/cache/ruby/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  vendor/cache/ruby/1.9.1/gems/railties-4.0.0/lib/rails/rack/logger.rb:38:in `call_app'
+  vendor/cache/ruby/1.9.1/gems/railties-4.0.0/lib/rails/rack/logger.rb:21:in `block in call'
+  vendor/cache/ruby/1.9.1/gems/activesupport-4.0.0/lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  vendor/cache/ruby/1.9.1/gems/activesupport-4.0.0/lib/active_support/tagged_logging.rb:25:in `tagged'
+  vendor/cache/ruby/1.9.1/gems/activesupport-4.0.0/lib/active_support/tagged_logging.rb:67:in `tagged'
+  vendor/cache/ruby/1.9.1/gems/railties-4.0.0/lib/rails/rack/logger.rb:21:in `call'
+  vendor/cache/ruby/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  vendor/cache/ruby/1.9.1/gems/rack-1.5.2/lib/rack/methodoverride.rb:21:in `call'
+  vendor/cache/ruby/1.9.1/gems/rack-1.5.2/lib/rack/runtime.rb:17:in `call'
+  vendor/cache/ruby/1.9.1/gems/activesupport-4.0.0/lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  vendor/cache/ruby/1.9.1/gems/railties-4.0.0/lib/rails/engine.rb:511:in `call'
+  vendor/cache/ruby/1.9.1/gems/railties-4.0.0/lib/rails/application.rb:97:in `call'
+  vendor/cache/ruby/1.9.1/gems/rack-1.5.2/lib/rack/lock.rb:17:in `call'
+  vendor/cache/ruby/1.9.1/gems/rack-1.5.2/lib/rack/content_length.rb:14:in `call'
+  vendor/cache/ruby/1.9.1/gems/rack-1.5.2/lib/rack/handler/webrick.rb:60:in `service'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /usr/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+I, [2014-02-12T21:41:00.893631 #8252]  INFO -- : Started GET "/assets/related/mail.png" for 121.5.20.120 at 2014-02-12 21:41:00 -0500
+F, [2014-02-12T21:41:00.895753 #8252] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/assets/related/mail.png"):
+  vendor/cache/ruby/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  vendor/cache/ruby/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  vendor/cache/ruby/1.9.1/gems/railties-4.0.0/lib/rails/rack/logger.rb:38:in `call_app'
+  vendor/cache/ruby/1.9.1/gems/railties-4.0.0/lib/rails/rack/logger.rb:21:in `block in call'
+  vendor/cache/ruby/1.9.1/gems/activesupport-4.0.0/lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  vendor/cache/ruby/1.9.1/gems/activesupport-4.0.0/lib/active_support/tagged_logging.rb:25:in `tagged'
+  vendor/cache/ruby/1.9.1/gems/activesupport-4.0.0/lib/active_support/tagged_logging.rb:67:in `tagged'
+  vendor/cache/ruby/1.9.1/gems/railties-4.0.0/lib/rails/rack/logger.rb:21:in `call'
+  vendor/cache/ruby/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  vendor/cache/ruby/1.9.1/gems/rack-1.5.2/lib/rack/methodoverride.rb:21:in `call'
+  vendor/cache/ruby/1.9.1/gems/rack-1.5.2/lib/rack/runtime.rb:17:in `call'
+  vendor/cache/ruby/1.9.1/gems/activesupport-4.0.0/lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  vendor/cache/ruby/1.9.1/gems/railties-4.0.0/lib/rails/engine.rb:511:in `call'
+  vendor/cache/ruby/1.9.1/gems/railties-4.0.0/lib/rails/application.rb:97:in `call'
+  vendor/cache/ruby/1.9.1/gems/rack-1.5.2/lib/rack/lock.rb:17:in `call'
+  vendor/cache/ruby/1.9.1/gems/rack-1.5.2/lib/rack/content_length.rb:14:in `call'
+  vendor/cache/ruby/1.9.1/gems/rack-1.5.2/lib/rack/handler/webrick.rb:60:in `service'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /usr/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+I, [2014-02-12T21:41:00.896570 #8252]  INFO -- : Started GET "/assets/related/tel.png" for 121.5.20.120 at 2014-02-12 21:41:00 -0500
+F, [2014-02-12T21:41:00.898844 #8252] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/assets/related/tel.png"):
+  vendor/cache/ruby/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  vendor/cache/ruby/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  vendor/cache/ruby/1.9.1/gems/railties-4.0.0/lib/rails/rack/logger.rb:38:in `call_app'
+  vendor/cache/ruby/1.9.1/gems/railties-4.0.0/lib/rails/rack/logger.rb:21:in `block in call'
+  vendor/cache/ruby/1.9.1/gems/activesupport-4.0.0/lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  vendor/cache/ruby/1.9.1/gems/activesupport-4.0.0/lib/active_support/tagged_logging.rb:25:in `tagged'
+  vendor/cache/ruby/1.9.1/gems/activesupport-4.0.0/lib/active_support/tagged_logging.rb:67:in `tagged'
+  vendor/cache/ruby/1.9.1/gems/railties-4.0.0/lib/rails/rack/logger.rb:21:in `call'
+  vendor/cache/ruby/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  vendor/cache/ruby/1.9.1/gems/rack-1.5.2/lib/rack/methodoverride.rb:21:in `call'
+  vendor/cache/ruby/1.9.1/gems/rack-1.5.2/lib/rack/runtime.rb:17:in `call'
+  vendor/cache/ruby/1.9.1/gems/activesupport-4.0.0/lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  vendor/cache/ruby/1.9.1/gems/railties-4.0.0/lib/rails/engine.rb:511:in `call'
+  vendor/cache/ruby/1.9.1/gems/railties-4.0.0/lib/rails/application.rb:97:in `call'
+  vendor/cache/ruby/1.9.1/gems/rack-1.5.2/lib/rack/lock.rb:17:in `call'
+  vendor/cache/ruby/1.9.1/gems/rack-1.5.2/lib/rack/content_length.rb:14:in `call'
+  vendor/cache/ruby/1.9.1/gems/rack-1.5.2/lib/rack/handler/webrick.rb:60:in `service'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /usr/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+I, [2014-02-12T21:41:01.086390 #8252]  INFO -- : Started GET "/assets/related/web.png" for 121.5.20.120 at 2014-02-12 21:41:01 -0500
+F, [2014-02-12T21:41:01.088754 #8252] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/assets/related/web.png"):
+  vendor/cache/ruby/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  vendor/cache/ruby/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  vendor/cache/ruby/1.9.1/gems/railties-4.0.0/lib/rails/rack/logger.rb:38:in `call_app'
+  vendor/cache/ruby/1.9.1/gems/railties-4.0.0/lib/rails/rack/logger.rb:21:in `block in call'
+  vendor/cache/ruby/1.9.1/gems/activesupport-4.0.0/lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  vendor/cache/ruby/1.9.1/gems/activesupport-4.0.0/lib/active_support/tagged_logging.rb:25:in `tagged'
+  vendor/cache/ruby/1.9.1/gems/activesupport-4.0.0/lib/active_support/tagged_logging.rb:67:in `tagged'
+  vendor/cache/ruby/1.9.1/gems/railties-4.0.0/lib/rails/rack/logger.rb:21:in `call'
+  vendor/cache/ruby/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  vendor/cache/ruby/1.9.1/gems/rack-1.5.2/lib/rack/methodoverride.rb:21:in `call'
+  vendor/cache/ruby/1.9.1/gems/rack-1.5.2/lib/rack/runtime.rb:17:in `call'
+  vendor/cache/ruby/1.9.1/gems/activesupport-4.0.0/lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  vendor/cache/ruby/1.9.1/gems/railties-4.0.0/lib/rails/engine.rb:511:in `call'
+  vendor/cache/ruby/1.9.1/gems/railties-4.0.0/lib/rails/application.rb:97:in `call'
+  vendor/cache/ruby/1.9.1/gems/rack-1.5.2/lib/rack/lock.rb:17:in `call'
+  vendor/cache/ruby/1.9.1/gems/rack-1.5.2/lib/rack/content_length.rb:14:in `call'
+  vendor/cache/ruby/1.9.1/gems/rack-1.5.2/lib/rack/handler/webrick.rb:60:in `service'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /usr/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+I, [2014-02-12T21:41:01.969128 #8252]  INFO -- : Started GET "/favicon.ico" for 121.5.20.120 at 2014-02-12 21:41:01 -0500
+F, [2014-02-12T21:41:01.971923 #8252] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  vendor/cache/ruby/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  vendor/cache/ruby/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  vendor/cache/ruby/1.9.1/gems/railties-4.0.0/lib/rails/rack/logger.rb:38:in `call_app'
+  vendor/cache/ruby/1.9.1/gems/railties-4.0.0/lib/rails/rack/logger.rb:21:in `block in call'
+  vendor/cache/ruby/1.9.1/gems/activesupport-4.0.0/lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  vendor/cache/ruby/1.9.1/gems/activesupport-4.0.0/lib/active_support/tagged_logging.rb:25:in `tagged'
+  vendor/cache/ruby/1.9.1/gems/activesupport-4.0.0/lib/active_support/tagged_logging.rb:67:in `tagged'
+  vendor/cache/ruby/1.9.1/gems/railties-4.0.0/lib/rails/rack/logger.rb:21:in `call'
+  vendor/cache/ruby/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  vendor/cache/ruby/1.9.1/gems/rack-1.5.2/lib/rack/methodoverride.rb:21:in `call'
+  vendor/cache/ruby/1.9.1/gems/rack-1.5.2/lib/rack/runtime.rb:17:in `call'
+  vendor/cache/ruby/1.9.1/gems/activesupport-4.0.0/lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  vendor/cache/ruby/1.9.1/gems/railties-4.0.0/lib/rails/engine.rb:511:in `call'
+  vendor/cache/ruby/1.9.1/gems/railties-4.0.0/lib/rails/application.rb:97:in `call'
+  vendor/cache/ruby/1.9.1/gems/rack-1.5.2/lib/rack/lock.rb:17:in `call'
+  vendor/cache/ruby/1.9.1/gems/rack-1.5.2/lib/rack/content_length.rb:14:in `call'
+  vendor/cache/ruby/1.9.1/gems/rack-1.5.2/lib/rack/handler/webrick.rb:60:in `service'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /usr/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+I, [2014-02-12T21:41:03.123566 #8252]  INFO -- : Started GET "/" for 121.5.20.120 at 2014-02-12 21:41:03 -0500
+I, [2014-02-12T21:41:03.126107 #8252]  INFO -- : Processing by IndexController#welcome as HTML
+I, [2014-02-12T21:41:03.130495 #8252]  INFO -- :   Rendered index/shared/_div1.html.slim (2.6ms)
+I, [2014-02-12T21:41:03.130800 #8252]  INFO -- :   Rendered index/welcome.html.slim within layouts/application (3.1ms)
+I, [2014-02-12T21:41:03.131851 #8252]  INFO -- :   Rendered layouts/shared/_header.html.slim (0.3ms)
+I, [2014-02-12T21:41:03.132213 #8252]  INFO -- :   Rendered layouts/shared/_footer.html.slim (0.0ms)
+I, [2014-02-12T21:41:03.132640 #8252]  INFO -- : Completed 200 OK in 6ms (Views: 5.1ms | ActiveRecord: 0.2ms)
+I, [2014-02-12T21:41:03.527074 #8252]  INFO -- : Started GET "/stylesheets/application.css" for 121.5.20.120 at 2014-02-12 21:41:03 -0500
+F, [2014-02-12T21:41:03.530592 #8252] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/stylesheets/application.css"):
+  vendor/cache/ruby/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  vendor/cache/ruby/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  vendor/cache/ruby/1.9.1/gems/railties-4.0.0/lib/rails/rack/logger.rb:38:in `call_app'
+  vendor/cache/ruby/1.9.1/gems/railties-4.0.0/lib/rails/rack/logger.rb:21:in `block in call'
+  vendor/cache/ruby/1.9.1/gems/activesupport-4.0.0/lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  vendor/cache/ruby/1.9.1/gems/activesupport-4.0.0/lib/active_support/tagged_logging.rb:25:in `tagged'
+  vendor/cache/ruby/1.9.1/gems/activesupport-4.0.0/lib/active_support/tagged_logging.rb:67:in `tagged'
+  vendor/cache/ruby/1.9.1/gems/railties-4.0.0/lib/rails/rack/logger.rb:21:in `call'
+  vendor/cache/ruby/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  vendor/cache/ruby/1.9.1/gems/rack-1.5.2/lib/rack/methodoverride.rb:21:in `call'
+  vendor/cache/ruby/1.9.1/gems/rack-1.5.2/lib/rack/runtime.rb:17:in `call'
+  vendor/cache/ruby/1.9.1/gems/activesupport-4.0.0/lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  vendor/cache/ruby/1.9.1/gems/railties-4.0.0/lib/rails/engine.rb:511:in `call'
+  vendor/cache/ruby/1.9.1/gems/railties-4.0.0/lib/rails/application.rb:97:in `call'
+  vendor/cache/ruby/1.9.1/gems/rack-1.5.2/lib/rack/lock.rb:17:in `call'
+  vendor/cache/ruby/1.9.1/gems/rack-1.5.2/lib/rack/content_length.rb:14:in `call'
+  vendor/cache/ruby/1.9.1/gems/rack-1.5.2/lib/rack/handler/webrick.rb:60:in `service'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /usr/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+I, [2014-02-12T21:41:03.531678 #8252]  INFO -- : Started GET "/stylesheets/index.css" for 121.5.20.120 at 2014-02-12 21:41:03 -0500
+F, [2014-02-12T21:41:03.533824 #8252] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/stylesheets/index.css"):
+  vendor/cache/ruby/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  vendor/cache/ruby/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  vendor/cache/ruby/1.9.1/gems/railties-4.0.0/lib/rails/rack/logger.rb:38:in `call_app'
+  vendor/cache/ruby/1.9.1/gems/railties-4.0.0/lib/rails/rack/logger.rb:21:in `block in call'
+  vendor/cache/ruby/1.9.1/gems/activesupport-4.0.0/lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  vendor/cache/ruby/1.9.1/gems/activesupport-4.0.0/lib/active_support/tagged_logging.rb:25:in `tagged'
+  vendor/cache/ruby/1.9.1/gems/activesupport-4.0.0/lib/active_support/tagged_logging.rb:67:in `tagged'
+  vendor/cache/ruby/1.9.1/gems/railties-4.0.0/lib/rails/rack/logger.rb:21:in `call'
+  vendor/cache/ruby/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  vendor/cache/ruby/1.9.1/gems/rack-1.5.2/lib/rack/methodoverride.rb:21:in `call'
+  vendor/cache/ruby/1.9.1/gems/rack-1.5.2/lib/rack/runtime.rb:17:in `call'
+  vendor/cache/ruby/1.9.1/gems/activesupport-4.0.0/lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  vendor/cache/ruby/1.9.1/gems/railties-4.0.0/lib/rails/engine.rb:511:in `call'
+  vendor/cache/ruby/1.9.1/gems/railties-4.0.0/lib/rails/application.rb:97:in `call'
+  vendor/cache/ruby/1.9.1/gems/rack-1.5.2/lib/rack/lock.rb:17:in `call'
+  vendor/cache/ruby/1.9.1/gems/rack-1.5.2/lib/rack/content_length.rb:14:in `call'
+  vendor/cache/ruby/1.9.1/gems/rack-1.5.2/lib/rack/handler/webrick.rb:60:in `service'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /usr/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+I, [2014-02-12T21:41:03.534598 #8252]  INFO -- : Started GET "/javascripts/index_list_scroll.js" for 121.5.20.120 at 2014-02-12 21:41:03 -0500
+F, [2014-02-12T21:41:03.536695 #8252] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/javascripts/index_list_scroll.js"):
+  vendor/cache/ruby/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  vendor/cache/ruby/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  vendor/cache/ruby/1.9.1/gems/railties-4.0.0/lib/rails/rack/logger.rb:38:in `call_app'
+  vendor/cache/ruby/1.9.1/gems/railties-4.0.0/lib/rails/rack/logger.rb:21:in `block in call'
+  vendor/cache/ruby/1.9.1/gems/activesupport-4.0.0/lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  vendor/cache/ruby/1.9.1/gems/activesupport-4.0.0/lib/active_support/tagged_logging.rb:25:in `tagged'
+  vendor/cache/ruby/1.9.1/gems/activesupport-4.0.0/lib/active_support/tagged_logging.rb:67:in `tagged'
+  vendor/cache/ruby/1.9.1/gems/railties-4.0.0/lib/rails/rack/logger.rb:21:in `call'
+  vendor/cache/ruby/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  vendor/cache/ruby/1.9.1/gems/rack-1.5.2/lib/rack/methodoverride.rb:21:in `call'
+  vendor/cache/ruby/1.9.1/gems/rack-1.5.2/lib/rack/runtime.rb:17:in `call'
+  vendor/cache/ruby/1.9.1/gems/activesupport-4.0.0/lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  vendor/cache/ruby/1.9.1/gems/railties-4.0.0/lib/rails/engine.rb:511:in `call'
+  vendor/cache/ruby/1.9.1/gems/railties-4.0.0/lib/rails/application.rb:97:in `call'
+  vendor/cache/ruby/1.9.1/gems/rack-1.5.2/lib/rack/lock.rb:17:in `call'
+  vendor/cache/ruby/1.9.1/gems/rack-1.5.2/lib/rack/content_length.rb:14:in `call'
+  vendor/cache/ruby/1.9.1/gems/rack-1.5.2/lib/rack/handler/webrick.rb:60:in `service'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /usr/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+I, [2014-02-12T21:41:03.537748 #8252]  INFO -- : Started GET "/javascripts/application.js" for 121.5.20.120 at 2014-02-12 21:41:03 -0500
+F, [2014-02-12T21:41:03.539881 #8252] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/javascripts/application.js"):
+  vendor/cache/ruby/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  vendor/cache/ruby/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  vendor/cache/ruby/1.9.1/gems/railties-4.0.0/lib/rails/rack/logger.rb:38:in `call_app'
+  vendor/cache/ruby/1.9.1/gems/railties-4.0.0/lib/rails/rack/logger.rb:21:in `block in call'
+  vendor/cache/ruby/1.9.1/gems/activesupport-4.0.0/lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  vendor/cache/ruby/1.9.1/gems/activesupport-4.0.0/lib/active_support/tagged_logging.rb:25:in `tagged'
+  vendor/cache/ruby/1.9.1/gems/activesupport-4.0.0/lib/active_support/tagged_logging.rb:67:in `tagged'
+  vendor/cache/ruby/1.9.1/gems/railties-4.0.0/lib/rails/rack/logger.rb:21:in `call'
+  vendor/cache/ruby/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  vendor/cache/ruby/1.9.1/gems/rack-1.5.2/lib/rack/methodoverride.rb:21:in `call'
+  vendor/cache/ruby/1.9.1/gems/rack-1.5.2/lib/rack/runtime.rb:17:in `call'
+  vendor/cache/ruby/1.9.1/gems/activesupport-4.0.0/lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  vendor/cache/ruby/1.9.1/gems/railties-4.0.0/lib/rails/engine.rb:511:in `call'
+  vendor/cache/ruby/1.9.1/gems/railties-4.0.0/lib/rails/application.rb:97:in `call'
+  vendor/cache/ruby/1.9.1/gems/rack-1.5.2/lib/rack/lock.rb:17:in `call'
+  vendor/cache/ruby/1.9.1/gems/rack-1.5.2/lib/rack/content_length.rb:14:in `call'
+  vendor/cache/ruby/1.9.1/gems/rack-1.5.2/lib/rack/handler/webrick.rb:60:in `service'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /usr/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+I, [2014-02-12T21:41:04.426959 #8252]  INFO -- : Started GET "/assets/related/logo_small.png" for 121.5.20.120 at 2014-02-12 21:41:04 -0500
+F, [2014-02-12T21:41:04.429867 #8252] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/assets/related/logo_small.png"):
+  vendor/cache/ruby/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  vendor/cache/ruby/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  vendor/cache/ruby/1.9.1/gems/railties-4.0.0/lib/rails/rack/logger.rb:38:in `call_app'
+  vendor/cache/ruby/1.9.1/gems/railties-4.0.0/lib/rails/rack/logger.rb:21:in `block in call'
+  vendor/cache/ruby/1.9.1/gems/activesupport-4.0.0/lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  vendor/cache/ruby/1.9.1/gems/activesupport-4.0.0/lib/active_support/tagged_logging.rb:25:in `tagged'
+  vendor/cache/ruby/1.9.1/gems/activesupport-4.0.0/lib/active_support/tagged_logging.rb:67:in `tagged'
+  vendor/cache/ruby/1.9.1/gems/railties-4.0.0/lib/rails/rack/logger.rb:21:in `call'
+  vendor/cache/ruby/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  vendor/cache/ruby/1.9.1/gems/rack-1.5.2/lib/rack/methodoverride.rb:21:in `call'
+  vendor/cache/ruby/1.9.1/gems/rack-1.5.2/lib/rack/runtime.rb:17:in `call'
+  vendor/cache/ruby/1.9.1/gems/activesupport-4.0.0/lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  vendor/cache/ruby/1.9.1/gems/railties-4.0.0/lib/rails/engine.rb:511:in `call'
+  vendor/cache/ruby/1.9.1/gems/railties-4.0.0/lib/rails/application.rb:97:in `call'
+  vendor/cache/ruby/1.9.1/gems/rack-1.5.2/lib/rack/lock.rb:17:in `call'
+  vendor/cache/ruby/1.9.1/gems/rack-1.5.2/lib/rack/content_length.rb:14:in `call'
+  vendor/cache/ruby/1.9.1/gems/rack-1.5.2/lib/rack/handler/webrick.rb:60:in `service'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /usr/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+I, [2014-02-12T21:41:04.436044 #8252]  INFO -- : Started GET "/assets/related/logo.png" for 121.5.20.120 at 2014-02-12 21:41:04 -0500
+F, [2014-02-12T21:41:04.440093 #8252] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/assets/related/logo.png"):
+  vendor/cache/ruby/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  vendor/cache/ruby/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  vendor/cache/ruby/1.9.1/gems/railties-4.0.0/lib/rails/rack/logger.rb:38:in `call_app'
+  vendor/cache/ruby/1.9.1/gems/railties-4.0.0/lib/rails/rack/logger.rb:21:in `block in call'
+  vendor/cache/ruby/1.9.1/gems/activesupport-4.0.0/lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  vendor/cache/ruby/1.9.1/gems/activesupport-4.0.0/lib/active_support/tagged_logging.rb:25:in `tagged'
+  vendor/cache/ruby/1.9.1/gems/activesupport-4.0.0/lib/active_support/tagged_logging.rb:67:in `tagged'
+  vendor/cache/ruby/1.9.1/gems/railties-4.0.0/lib/rails/rack/logger.rb:21:in `call'
+  vendor/cache/ruby/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  vendor/cache/ruby/1.9.1/gems/rack-1.5.2/lib/rack/methodoverride.rb:21:in `call'
+  vendor/cache/ruby/1.9.1/gems/rack-1.5.2/lib/rack/runtime.rb:17:in `call'
+  vendor/cache/ruby/1.9.1/gems/activesupport-4.0.0/lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  vendor/cache/ruby/1.9.1/gems/railties-4.0.0/lib/rails/engine.rb:511:in `call'
+  vendor/cache/ruby/1.9.1/gems/railties-4.0.0/lib/rails/application.rb:97:in `call'
+  vendor/cache/ruby/1.9.1/gems/rack-1.5.2/lib/rack/lock.rb:17:in `call'
+  vendor/cache/ruby/1.9.1/gems/rack-1.5.2/lib/rack/content_length.rb:14:in `call'
+  vendor/cache/ruby/1.9.1/gems/rack-1.5.2/lib/rack/handler/webrick.rb:60:in `service'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /usr/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+I, [2014-02-12T21:41:04.441891 #8252]  INFO -- : Started GET "/assets/related/add.png" for 121.5.20.120 at 2014-02-12 21:41:04 -0500
+F, [2014-02-12T21:41:04.443990 #8252] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/assets/related/add.png"):
+  vendor/cache/ruby/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  vendor/cache/ruby/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  vendor/cache/ruby/1.9.1/gems/railties-4.0.0/lib/rails/rack/logger.rb:38:in `call_app'
+  vendor/cache/ruby/1.9.1/gems/railties-4.0.0/lib/rails/rack/logger.rb:21:in `block in call'
+  vendor/cache/ruby/1.9.1/gems/activesupport-4.0.0/lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  vendor/cache/ruby/1.9.1/gems/activesupport-4.0.0/lib/active_support/tagged_logging.rb:25:in `tagged'
+  vendor/cache/ruby/1.9.1/gems/activesupport-4.0.0/lib/active_support/tagged_logging.rb:67:in `tagged'
+  vendor/cache/ruby/1.9.1/gems/railties-4.0.0/lib/rails/rack/logger.rb:21:in `call'
+  vendor/cache/ruby/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  vendor/cache/ruby/1.9.1/gems/rack-1.5.2/lib/rack/methodoverride.rb:21:in `call'
+  vendor/cache/ruby/1.9.1/gems/rack-1.5.2/lib/rack/runtime.rb:17:in `call'
+  vendor/cache/ruby/1.9.1/gems/activesupport-4.0.0/lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  vendor/cache/ruby/1.9.1/gems/railties-4.0.0/lib/rails/engine.rb:511:in `call'
+  vendor/cache/ruby/1.9.1/gems/railties-4.0.0/lib/rails/application.rb:97:in `call'
+  vendor/cache/ruby/1.9.1/gems/rack-1.5.2/lib/rack/lock.rb:17:in `call'
+  vendor/cache/ruby/1.9.1/gems/rack-1.5.2/lib/rack/content_length.rb:14:in `call'
+  vendor/cache/ruby/1.9.1/gems/rack-1.5.2/lib/rack/handler/webrick.rb:60:in `service'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /usr/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+I, [2014-02-12T21:41:04.444804 #8252]  INFO -- : Started GET "/assets/related/mail.png" for 121.5.20.120 at 2014-02-12 21:41:04 -0500
+F, [2014-02-12T21:41:04.446934 #8252] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/assets/related/mail.png"):
+  vendor/cache/ruby/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  vendor/cache/ruby/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  vendor/cache/ruby/1.9.1/gems/railties-4.0.0/lib/rails/rack/logger.rb:38:in `call_app'
+  vendor/cache/ruby/1.9.1/gems/railties-4.0.0/lib/rails/rack/logger.rb:21:in `block in call'
+  vendor/cache/ruby/1.9.1/gems/activesupport-4.0.0/lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  vendor/cache/ruby/1.9.1/gems/activesupport-4.0.0/lib/active_support/tagged_logging.rb:25:in `tagged'
+  vendor/cache/ruby/1.9.1/gems/activesupport-4.0.0/lib/active_support/tagged_logging.rb:67:in `tagged'
+  vendor/cache/ruby/1.9.1/gems/railties-4.0.0/lib/rails/rack/logger.rb:21:in `call'
+  vendor/cache/ruby/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  vendor/cache/ruby/1.9.1/gems/rack-1.5.2/lib/rack/methodoverride.rb:21:in `call'
+  vendor/cache/ruby/1.9.1/gems/rack-1.5.2/lib/rack/runtime.rb:17:in `call'
+  vendor/cache/ruby/1.9.1/gems/activesupport-4.0.0/lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  vendor/cache/ruby/1.9.1/gems/railties-4.0.0/lib/rails/engine.rb:511:in `call'
+  vendor/cache/ruby/1.9.1/gems/railties-4.0.0/lib/rails/application.rb:97:in `call'
+  vendor/cache/ruby/1.9.1/gems/rack-1.5.2/lib/rack/lock.rb:17:in `call'
+  vendor/cache/ruby/1.9.1/gems/rack-1.5.2/lib/rack/content_length.rb:14:in `call'
+  vendor/cache/ruby/1.9.1/gems/rack-1.5.2/lib/rack/handler/webrick.rb:60:in `service'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /usr/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+I, [2014-02-12T21:41:04.447700 #8252]  INFO -- : Started GET "/assets/related/tel.png" for 121.5.20.120 at 2014-02-12 21:41:04 -0500
+F, [2014-02-12T21:41:04.449949 #8252] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/assets/related/tel.png"):
+  vendor/cache/ruby/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  vendor/cache/ruby/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  vendor/cache/ruby/1.9.1/gems/railties-4.0.0/lib/rails/rack/logger.rb:38:in `call_app'
+  vendor/cache/ruby/1.9.1/gems/railties-4.0.0/lib/rails/rack/logger.rb:21:in `block in call'
+  vendor/cache/ruby/1.9.1/gems/activesupport-4.0.0/lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  vendor/cache/ruby/1.9.1/gems/activesupport-4.0.0/lib/active_support/tagged_logging.rb:25:in `tagged'
+  vendor/cache/ruby/1.9.1/gems/activesupport-4.0.0/lib/active_support/tagged_logging.rb:67:in `tagged'
+  vendor/cache/ruby/1.9.1/gems/railties-4.0.0/lib/rails/rack/logger.rb:21:in `call'
+  vendor/cache/ruby/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  vendor/cache/ruby/1.9.1/gems/rack-1.5.2/lib/rack/methodoverride.rb:21:in `call'
+  vendor/cache/ruby/1.9.1/gems/rack-1.5.2/lib/rack/runtime.rb:17:in `call'
+  vendor/cache/ruby/1.9.1/gems/activesupport-4.0.0/lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  vendor/cache/ruby/1.9.1/gems/railties-4.0.0/lib/rails/engine.rb:511:in `call'
+  vendor/cache/ruby/1.9.1/gems/railties-4.0.0/lib/rails/application.rb:97:in `call'
+  vendor/cache/ruby/1.9.1/gems/rack-1.5.2/lib/rack/lock.rb:17:in `call'
+  vendor/cache/ruby/1.9.1/gems/rack-1.5.2/lib/rack/content_length.rb:14:in `call'
+  vendor/cache/ruby/1.9.1/gems/rack-1.5.2/lib/rack/handler/webrick.rb:60:in `service'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /usr/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+I, [2014-02-12T21:41:04.450737 #8252]  INFO -- : Started GET "/assets/related/web.png" for 121.5.20.120 at 2014-02-12 21:41:04 -0500
+F, [2014-02-12T21:41:04.452920 #8252] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/assets/related/web.png"):
+  vendor/cache/ruby/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  vendor/cache/ruby/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  vendor/cache/ruby/1.9.1/gems/railties-4.0.0/lib/rails/rack/logger.rb:38:in `call_app'
+  vendor/cache/ruby/1.9.1/gems/railties-4.0.0/lib/rails/rack/logger.rb:21:in `block in call'
+  vendor/cache/ruby/1.9.1/gems/activesupport-4.0.0/lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  vendor/cache/ruby/1.9.1/gems/activesupport-4.0.0/lib/active_support/tagged_logging.rb:25:in `tagged'
+  vendor/cache/ruby/1.9.1/gems/activesupport-4.0.0/lib/active_support/tagged_logging.rb:67:in `tagged'
+  vendor/cache/ruby/1.9.1/gems/railties-4.0.0/lib/rails/rack/logger.rb:21:in `call'
+  vendor/cache/ruby/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  vendor/cache/ruby/1.9.1/gems/rack-1.5.2/lib/rack/methodoverride.rb:21:in `call'
+  vendor/cache/ruby/1.9.1/gems/rack-1.5.2/lib/rack/runtime.rb:17:in `call'
+  vendor/cache/ruby/1.9.1/gems/activesupport-4.0.0/lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  vendor/cache/ruby/1.9.1/gems/railties-4.0.0/lib/rails/engine.rb:511:in `call'
+  vendor/cache/ruby/1.9.1/gems/railties-4.0.0/lib/rails/application.rb:97:in `call'
+  vendor/cache/ruby/1.9.1/gems/rack-1.5.2/lib/rack/lock.rb:17:in `call'
+  vendor/cache/ruby/1.9.1/gems/rack-1.5.2/lib/rack/content_length.rb:14:in `call'
+  vendor/cache/ruby/1.9.1/gems/rack-1.5.2/lib/rack/handler/webrick.rb:60:in `service'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /usr/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
